@@ -24,12 +24,23 @@ import docker from "./assets/techstack/docker.png";
 import node from "./assets/techstack/node.png";
 import mysql from "./assets/techstack/mysql.png";
 import mongo from "./assets/techstack/mongo.png";
+import python from "./assets/techstack/python.png"
+import angular from "./assets/techstack/angular.png"
+import java from "./assets/techstack/java.png"
+import postgre from "./assets/techstack/postgre.png"
+import oracle from "./assets/techstack/oracle.png"
+import jenkins from "./assets/techstack/jenkins.png"
+import ansible from "./assets/techstack/ansible.png"
+import aws from "./assets/techstack/aws.png"
+import azure from "./assets/techstack/azure.png"
+
 
 // Porject Images
 import projectImage1 from "./assets/projects/project1.jpg";
 import projectImage2 from "./assets/projects/project2.jpg";
 import projectImage3 from "./assets/projects/project3.jpg";
 import projectImage4 from "./assets/projects/project4.jpg";
+import projectImage5 from "./assets/projects/project5.png";
 
 //import projectImage5 from "./assets/projects/project5.jpg";
 //import projectImage6 from "./assets/projects/project6.jpg";
@@ -45,7 +56,7 @@ export const personalDetails = {
   name: "Yannick Faical",
   tagline: "I build things for web",
   img: profile,
-  about: `I am a web developer with a strong passion for web development. I love creating intuitive user experiences with a solid backend`,
+  about: `I am a software engineer with a strong passion for web development. I love creating intuitive user experiences with a solid backend`,
 };
 
 // Enter your Social Media URLs here
@@ -71,25 +82,27 @@ export const workDetails = [
 // Enter your Education Details here
 export const eduDetails = [
   {
-    Position: "Master in Software engineering",
-    Company: `IGA`,
-    Location: "Casablanca",
+    Position: "Master 2 in information and web technologies",
+    Company: `Université claude bernard de lyon`,
+    Location: "lyon ,france",
     Type: "Full Time",
-    Duration: "Oct 2023 - Present",
+    Duration: "2024 - 2025",
+  },
+  
+ 
+  {
+    Position: "State engineering diploma in software engineering",
+    Company: `IGA`,
+    Location: "Casablanca ,morroco",
+    Type: "Full Time",
+    Duration: "Oct 2023 - Sept 2025",
   },
   {
-    Position: "React Development",
-    Company: "Udemy, YouTube",
-    Location: "Online",
-    Type: "Full Time",
-    Duration: "April 2023 - Present",
-  },
-  {
-    Position: "Bachelor in Computer Sciences",
+    Position: "Bachelor's degree in computer engineering",
     Company: `IGA`,
-    Location: "Casablanca",
+    Location: "Casablanca ,morroco",
     Type: "Full Time",
-    Duration: "Oct 2020 - Sept 2023",
+    Duration: "Oct 2020- Sept 2023",
   },
 ];
 
@@ -114,10 +127,27 @@ export const techStackDetails = {
   node: node,
   mysql: mysql,
   mongo: mongo,
+  python :python,
+  angular:angular,
+  java:java,
+  postgre:postgre,
+  oracle :oracle,
+  jenkins :jenkins,
+  ansible:ansible,
+  aws:aws,
+  azure:azure,
 };
 
 // Enter your Project Details here
 export const projectDetails = [
+  {
+    title: "Makwins – B2B E-commerce Platform for Buying and Selling Backlinks",
+    image: projectImage5,
+    description: `Developed a secure and user-friendly web application to facilitate the purchase and sale of backlinks between companies, integrating payment systems like PayPal and Stripe`,
+    techstack: " php ,symfony, twig template",
+    previewLink: "https://google.com",
+    githubLink: "https://github.com/YannickFaical/tech-backend",
+  },
   {
     title: "User reviews",
     image: projectImage1,
